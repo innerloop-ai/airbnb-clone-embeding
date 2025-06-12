@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Hero = () => {
   return (
     <section className="bg-gradient-to-b from-gray-50 to-white py-16">

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Globe, Facebook, Twitter, Instagram } from 'lucide-react'
 
 const Footer = () => {

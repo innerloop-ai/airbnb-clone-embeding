@@ -1,4 +1,3 @@
-import React from 'react'
 import { Search, Globe, Menu, User } from 'lucide-react'
 
 const Header = () => {
