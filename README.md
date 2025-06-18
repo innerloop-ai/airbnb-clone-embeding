@@ -1,111 +1,149 @@
-# Airbnb Clone with Video Embedding
+# 🏠 Airbnb Clone - InnerLoop Video Integration
 
-A modern Airbnb clone built with React, TypeScript, and Tailwind CSS, featuring video tour integration from Innerloop platform.
+## Project Overview
+This project demonstrates how to embed InnerLoop videos into an Airbnb-style vacation rental platform. It showcases how video content can be seamlessly integrated within a modern property listing website, allowing users to explore immersive property tours and browse accommodations with rich video experiences.
+
+## Live Demo
+Check out the live demo: [Airbnb Clone Demo](https://airbnb-clone-embeding.pages.dev/)
 
 ## Features
+- **Responsive design** that works perfectly on desktop and mobile devices
+- **InnerLoop video embedding** for immersive property tours and virtual walkthroughs
+- **Airbnb-inspired UI** with modern, clean design patterns
+- **Property grid listings** with comprehensive property information
+- **Interactive video controls** with play/pause functionality and video overlays
+- **Property details** including price per night, location, ratings, host information, and amenities
+- **Video tour badges** indicating properties with available video content
+- **Heart favorites** functionality for saving preferred properties
 
-- 🏠 **Property Listings**: Browse beautiful properties with detailed information
-- 🎥 **Video Tours**: Interactive video tours powered by Innerloop embedding
-- 📱 **Responsive Design**: Airbnb-inspired UI that works on all devices
-- ⭐ **Property Ratings**: Star ratings and review counts
-- 💝 **Wishlist**: Like/unlike properties functionality
-- 🔍 **Search Interface**: Advanced search with filters
-- 🎨 **Modern UI**: Clean, modern interface using Tailwind CSS
+## Technologies Used
+This project is built with:
 
-## Video Integration
+- **React 18** - Modern React with hooks and functional components
+- **TypeScript** - Type-safe development with strong typing
+- **Vite** - Fast build tool and development server
+- **Tailwind CSS** - Utility-first CSS framework for responsive design
+- **Lucide React** - Beautiful, customizable SVG icons
+- **InnerLoop Video API** - Professional video streaming and embedding
 
-This application showcases video embedding capabilities from the Innerloop platform:
-- Click the play button on any property to view the video tour
-- Videos are embedded using iframe technology
-- Seamless toggle between image and video views
-- Video tour badges for enhanced visibility
-
-## Technology Stack
-
-- **React 18** - Modern React with hooks
-- **TypeScript** - Type-safe development
-- **Vite** - Fast build tool and dev server
-- **Tailwind CSS** - Utility-first CSS framework
-- **Lucide React** - Beautiful icons
-
-## Getting Started
+## Development Setup
 
 ### Prerequisites
-
-- Node.js 18+ 
-- npm or yarn
+- Node.js (v16 or higher)
+- npm (v8 or higher)
 
 ### Installation
+To run this project locally:
 
-1. Clone the repository
-2. Install dependencies:
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd airbnb-clone-embeding
+   ```
+
+2. **Install dependencies:**
    ```bash
    npm install
    ```
 
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
+### Running the Application
+**Start the development server:**
+```bash
+npm run dev
+```
+Open your browser and navigate to `http://localhost:3000`
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-### Build for Production
-
+### Building for Production
+**To build the application for production:**
 ```bash
 npm run build
 ```
+The build artifacts will be stored in the `dist/` directory
+
+**To preview the production build:**
+```bash
+npm run preview
+```
 
 ## Project Structure
-
 ```
 src/
 ├── components/
-│   ├── Header.tsx          # Navigation header
-│   ├── Hero.tsx            # Hero section with search
-│   ├── PropertyGrid.tsx    # Grid of property cards
-│   ├── PropertyCard.tsx    # Individual property card with video
-│   └── Footer.tsx          # Footer component
-├── App.tsx                 # Main app component
-├── main.tsx               # React app entry point
-└── index.css              # Global styles with Tailwind
+│   ├── Header.tsx           - Navigation header with Airbnb-style search
+│   ├── Hero.tsx            - Hero section with main search functionality
+│   ├── PropertyGrid.tsx    - Grid component displaying property listings
+│   ├── PropertyCard.tsx    - Individual property card with video integration
+│   └── Footer.tsx          - Footer component with links and information
+├── App.tsx                 - Main React component and app structure
+├── main.tsx               - Entry point for the React application
+├── index.css              - Global styles and Tailwind CSS imports
+├── vite-env.d.ts          - Vite environment type declarations
+├── .gitignore             - Git ignore configuration
+├── package.json           - NPM package configuration and dependencies
+├── tailwind.config.js     - Tailwind CSS configuration
+├── tsconfig.json          - TypeScript configuration
+├── vite.config.ts         - Vite build tool configuration
+└── postcss.config.js      - PostCSS configuration for Tailwind
 ```
 
-## Video Embedding
+## InnerLoop Video Integration
+The Airbnb Clone leverages InnerLoop's powerful video capabilities to enhance the property browsing experience:
 
-Properties include video embed URLs from Innerloop:
-- Format: `https://innerloop.example.com/embed/video/{video-id}`
-- Videos load in iframe when play button is clicked
-- Responsive video containers
-- Close button to return to image view
+- **Video Embedding**: Showcase professional property tours, room walkthroughs, and amenity highlights
+- **Seamless Integration**: Videos are embedded directly into property cards using iframe technology
+- **Interactive Controls**: Users can play/pause videos and toggle between video and static views
+- **Responsive Video**: Video embeds adapt to different screen sizes maintaining aspect ratios
+
+### Video Integration Features:
+- Property tour videos embedded from InnerLoop platform
+- Automatic video thumbnail generation
+- Smooth hover effects and transitions
+- Video overlay controls with heart/favorite functionality
+- Professional video URLs from InnerLoop streaming service
 
 ## Customization
 
-### Adding New Properties
+**To modify InnerLoop video settings:**
+- Update video embed URLs in `src/components/PropertyGrid.tsx`
+- Adjust video player properties in `src/components/PropertyCard.tsx`
 
-Edit the `properties` array in `src/components/PropertyGrid.tsx`:
+**To configure property listings:**
+- Modify the properties array in `src/components/PropertyGrid.tsx`
+- Update property data structure and video URLs
 
-```typescript
-{
-  id: 7,
-  title: 'Your Property Title',
-  location: 'City, State',
-  price: 200,
-  rating: 4.8,
-  reviews: 50,
-  images: ['https://your-image-url.jpg'],
-  videoEmbedUrl: 'https://innerloop.example.com/embed/video/your-video-id',
-  features: ['Feature 1', 'Feature 2']
-}
-```
+**To customize styling:**
+- Modify Tailwind classes in components
+- Update color scheme in `tailwind.config.js`
+- Adjust responsive breakpoints and spacing
 
-### Styling
+## Sample Property Data
+The application includes sample properties with InnerLoop video integration:
+- Luxury Beachfront Villa (Malibu, CA)
+- Modern Downtown Loft (New York, NY)
+- Cozy Mountain Cabin (Aspen, CO)
+- Historic Brownstone (Boston, MA)
+- Desert Oasis Resort (Scottsdale, AZ)
+- Lakeside Retreat (Lake Tahoe, NV)
 
-The app uses Tailwind CSS with custom Airbnb-inspired colors:
-- Primary: `#FF385C` (Airbnb red)
-- Secondary: `#00A699` (Airbnb teal)
-- Dark: `#222222` (Dark gray)
+Each property includes comprehensive details:
+- Property title and location
+- Pricing per night
+- Star ratings and review counts
+- Host information
+- Amenity lists
+- InnerLoop video tour URLs
+
+## Contributing
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This project is created for demonstration purposes to showcase video embedding capabilities.
+## Acknowledgments
+- Inspired by Airbnb's user interface and experience design
+- Powered by InnerLoop video streaming technology
+- Built with modern React and TypeScript best practices
