@@ -12,7 +12,7 @@ const properties = [
     images: [
       'https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
     ],
-    videoEmbedUrl: 'https://innerloop.example.com/embed/video/luxury-villa-tour',
+    videoEmbedUrl: 'https://play.innerloop.stream/playersvc/ins-share/cu-ZHrAHKSn4m3Q-zEozykO4',
     features: ['Ocean view', 'Private beach', 'Pool', 'WiFi']
   },
   {
@@ -25,7 +25,7 @@ const properties = [
     images: [
       'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
     ],
-    videoEmbedUrl: 'https://innerloop.example.com/embed/video/modern-loft-showcase',
+    videoEmbedUrl: 'https://play.innerloop.stream/playersvc/ins-share/cu-pEpcaO6O9OwiJhhS15h7D',
     features: ['City view', 'Rooftop access', 'Gym', 'WiFi']
   },
   {
@@ -35,10 +35,7 @@ const properties = [
     price: 180,
     rating: 4.92,
     reviews: 203,
-    images: [
-      'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-    ],
-    videoEmbedUrl: 'https://innerloop.example.com/embed/video/mountain-cabin-experience',
+    videoEmbedUrl: 'https://play.innerloop.stream/playersvc/ins-share/cu-VmzXMLVrCht4GNCjyldBc',
     features: ['Mountain view', 'Fireplace', 'Hot tub', 'WiFi']
   },
   {
@@ -48,10 +45,7 @@ const properties = [
     price: 160,
     rating: 4.7,
     reviews: 156,
-    images: [
-      'https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-    ],
-    videoEmbedUrl: 'https://innerloop.example.com/embed/video/historic-brownstone-tour',
+    videoEmbedUrl: 'https://play.innerloop.stream/playersvc/ins-share/cu-omCy3oxiHCEFwcFuSw9un',
     features: ['Historic charm', 'Garden', 'Parking', 'WiFi']
   },
   {
@@ -61,10 +55,7 @@ const properties = [
     price: 320,
     rating: 4.85,
     reviews: 94,
-    images: [
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-    ],
-    videoEmbedUrl: 'https://innerloop.example.com/embed/video/desert-oasis-experience',
+    videoEmbedUrl: 'https://play.innerloop.stream/playersvc/ins-share/cu-NbXlgdNNnpCIf0E0nWpp8',
     features: ['Desert view', 'Spa', 'Pool', 'WiFi']
   },
   {
@@ -74,10 +65,7 @@ const properties = [
     price: 280,
     rating: 4.9,
     reviews: 178,
-    images: [
-      'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-    ],
-    videoEmbedUrl: 'https://innerloop.example.com/embed/video/lakeside-retreat-virtual-tour',
+    videoEmbedUrl: 'https://play.innerloop.stream/playersvc/ins-share/cu-Z2eV0KFhRvrip2fx27-NK',
     features: ['Lake view', 'Dock access', 'Kayaks', 'WiFi']
   }
 ]
