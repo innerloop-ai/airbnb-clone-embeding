@@ -21,7 +21,7 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-gray-900 mb-4">Community</h3>
             <ul className="space-y-3 text-sm text-gray-600">
-              <li><a href="#" className="hover:text-gray-900">Airbnb.org: disaster relief housing</a></li>
+              <li><a href="#" className="hover:text-gray-900">Airstay.org: disaster relief housing</a></li>
               <li><a href="#" className="hover:text-gray-900">Combating discrimination</a></li>
               <li><a href="#" className="hover:text-gray-900">Video tours by Innerloop</a></li>
             </ul>
@@ -31,7 +31,7 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-gray-900 mb-4">Hosting</h3>
             <ul className="space-y-3 text-sm text-gray-600">
-              <li><a href="#" className="hover:text-gray-900">Airbnb your home</a></li>
+              <li><a href="#" className="hover:text-gray-900">Air Stay your home</a></li>
               <li><a href="#" className="hover:text-gray-900">AirCover for Hosts</a></li>
               <li><a href="#" className="hover:text-gray-900">Hosting resources</a></li>
               <li><a href="#" className="hover:text-gray-900">Community forum</a></li>
@@ -39,15 +39,15 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Airbnb */}
+          {/* Air Stay */}
           <div>
-            <h3 className="font-semibold text-gray-900 mb-4">Airbnb</h3>
+            <h3 className="font-semibold text-gray-900 mb-4">Air Stay</h3>
             <ul className="space-y-3 text-sm text-gray-600">
               <li><a href="#" className="hover:text-gray-900">Newsroom</a></li>
               <li><a href="#" className="hover:text-gray-900">New features</a></li>
               <li><a href="#" className="hover:text-gray-900">Careers</a></li>
               <li><a href="#" className="hover:text-gray-900">Investors</a></li>
-              <li><a href="#" className="hover:text-gray-900">Airbnb.com sitemap</a></li>
+              <li><a href="#" className="hover:text-gray-900">airstay.com sitemap</a></li>
             </ul>
           </div>
         </div>
@@ -55,7 +55,7 @@ const Footer = () => {
         <div className="border-t border-gray-200 mt-8 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <div className="flex items-center space-x-6 text-sm text-gray-600">
-              <span>© 2025 Airbnb Clone with Innerloop Video</span>
+              <span>© 2025 Air Stay with Innerloop Video</span>
               <a href="#" className="hover:text-gray-900">Privacy</a>
               <a href="#" className="hover:text-gray-900">Terms</a>
               <a href="#" className="hover:text-gray-900">Sitemap</a>

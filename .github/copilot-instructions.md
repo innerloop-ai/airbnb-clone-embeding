@@ -2,24 +2,24 @@
 
 <!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
 
-This is an Airbnb clone application built with React, TypeScript, Vite, and Tailwind CSS. The key feature is video embedding integration from Innerloop platform.
+This is an Air Stay application built with React, TypeScript, Vite, and Tailwind CSS. The key feature is video embedding integration from Innerloop platform.
 
 ## Project Structure
 - Built with React 18 + TypeScript + Vite
-- Styled with Tailwind CSS using Airbnb-inspired design system
+- Styled with Tailwind CSS using Air Stay-inspired design system
 - Components are functional components using React hooks
 - Video embedding from Innerloop site using iframe embeds
 
 ## Key Features
 - Property listings with video tour capabilities
-- Responsive design matching Airbnb's UI/UX
+- Responsive design matching Air Stay's UI/UX
 - Video overlay functionality with play/pause controls
 - Static property data (no backend API)
-- Airbnb-style search interface
+- Air Stay-style search interface
 
 ## Styling Guidelines
 - Use Tailwind CSS classes
-- Follow Airbnb's color scheme (primary: #FF385C)
+- Follow Air Stay's color scheme (primary: #FF385C)
 - Maintain responsive design patterns
 - Use consistent spacing and typography
 

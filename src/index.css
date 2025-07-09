@@ -10,7 +10,7 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-airbnb-primary text-white px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all duration-200;
+    @apply bg-airstay-primary text-white px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all duration-200;
   }
   
   .btn-secondary {

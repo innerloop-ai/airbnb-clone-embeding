@@ -1,15 +1,15 @@
-# 🏠 Airbnb Clone - InnerLoop Video Integration
+# 🏠 Air Stay - InnerLoop Video Integration
 
 ## Project Overview
-This project demonstrates how to embed InnerLoop videos into an Airbnb-style vacation rental platform. It showcases how video content can be seamlessly integrated within a modern property listing website, allowing users to explore immersive property tours and browse accommodations with rich video experiences.
+This project demonstrates how to embed InnerLoop videos into an Air Stay-style vacation rental platform. It showcases how video content can be seamlessly integrated within a modern property listing website, allowing users to explore immersive property tours and browse accommodations with rich video experiences.
 
 ## Live Demo
-Check out the live demo: [Airbnb Clone Demo](https://airbnb-clone-embeding.pages.dev/)
+Check out the live demo: [Air Stay Demo](https://airbnb-clone-embeding.pages.dev/)
 
 ## Features
 - **Responsive design** that works perfectly on desktop and mobile devices
 - **InnerLoop video embedding** for immersive property tours and virtual walkthroughs
-- **Airbnb-inspired UI** with modern, clean design patterns
+- **Air Stay-inspired UI** with modern, clean design patterns
 - **Property grid listings** with comprehensive property information
 - **Interactive video controls** with play/pause functionality and video overlays
 - **Property details** including price per night, location, ratings, host information, and amenities

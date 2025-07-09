@@ -14,29 +14,29 @@ const Hero = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             <div className="space-y-2">
               <label className="text-sm font-medium text-gray-700">Where</label>
-              <input 
-                type="text" 
-                placeholder="Search destinations"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-airbnb-primary focus:border-transparent"
+          <input 
+            type="text" 
+            placeholder="Search destinations"
+            className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-airstay-primary focus:border-transparent"
               />
             </div>
             <div className="space-y-2">
               <label className="text-sm font-medium text-gray-700">Check in</label>
-              <input 
-                type="date"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-airbnb-primary focus:border-transparent"
+          <input 
+            type="date"
+            className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-airstay-primary focus:border-transparent"
               />
             </div>
             <div className="space-y-2">
               <label className="text-sm font-medium text-gray-700">Check out</label>
-              <input 
-                type="date"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-airbnb-primary focus:border-transparent"
+          <input 
+            type="date"
+            className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-airstay-primary focus:border-transparent"
               />
             </div>
             <div className="space-y-2">
               <label className="text-sm font-medium text-gray-700">Guests</label>
-              <select className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-airbnb-primary focus:border-transparent">
+          <select className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-airstay-primary focus:border-transparent">
                 <option>1 guest</option>
                 <option>2 guests</option>
                 <option>3 guests</option>

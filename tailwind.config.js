@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        airbnb: {
+        airstay: {
           primary: '#FF385C',
           secondary: '#00A699',
           dark: '#222222'
